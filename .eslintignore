@@ -1,0 +1,29 @@
+build/**
+components/**
+coverage/**
+dist/**
+release/**
+
+# Github workflows
+.github/**
+
+# Generated files
+js/curve/*
+js/components.js
+js/util_worker.js
+libtextsecure/components.js
+libtextsecure/test/test.js
+test/test.js
+
+# Third-party files
+js/Mp3LameEncoder.min.js
+js/WebAudioRecorderMp3.js
+
+# TypeScript generated files
+app/**/*.js
+ts/**/*.js
+
+**/*.d.ts
+.eslintrc.js
+webpack.config.ts
+preload.bundle.*

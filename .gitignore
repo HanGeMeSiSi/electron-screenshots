@@ -1,0 +1,17 @@
+node_modules
+app/*.js
+ts/**/*.js
+
+# Editors
+/.idea
+/.vs
+/.vscode
+*.sublime*
+*.map
+
+# js save
+!ts/capture/**/*
+**/*.DS_Store
+
+yarn-error.log
+yarn.lock
