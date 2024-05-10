@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>capture</title>
+  <style>
+    html,
+    body,
+    div {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .image-canvas {
+      position: absolute;
+      display: none;
+      z-index: 1;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="js-bg" class="bg"></div>
+  <div id="js-mask" class="mask"></div>
+  <canvas id="js-canvas" class="image-canvas"></canvas>
+</body>
+</html>
