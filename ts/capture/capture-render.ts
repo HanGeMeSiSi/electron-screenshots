@@ -8,7 +8,6 @@ window.addEventListener('load', () => {
     windowsArr: WindowItemType[];
   }) => {
     const $bg = document.getElementById('js-bg');
-    console.log(data, '===data');
     if (!$bg) return;
     const { screen } = data;
     const { width = 0, height = 0 } = screen.display?.bounds || {};
